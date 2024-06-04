@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/editTextAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Monto" />
+
+    <EditText
+        android:id="@+id/editTextCurrencyFrom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Divisa origen" />
+
+    <EditText
+        android:id="@+id/editTextCurrencyTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Divisa destino" />
+
+    <Button
+        android:id="@+id/buttonConvert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convertir" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado" />
+
+</LinearLayout>
